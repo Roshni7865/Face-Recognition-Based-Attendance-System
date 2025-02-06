@@ -54,7 +54,6 @@ The attendance percentage is calculated based on the number of days attended, as
 
 The formula for attendance percentage is:
 ```
-function test()
   Attendance Percentage = (Days Attended / Total Days) * 100
 ```
 ## License
