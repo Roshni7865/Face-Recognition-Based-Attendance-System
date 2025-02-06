@@ -49,6 +49,13 @@ The attendance data, including check-in time, check-out time, time spent, and at
 ├── README.md                      # Project description and instructions
 └── requirements.txt               # List of required libraries
 ```
+## Attendance Percentage Calculation
+The attendance percentage is calculated based on the number of days attended, assuming a year-long period (365 days). Each day attended increases the attendance percentage. The percentage decreases as days are missed.
 
+The formula for attendance percentage is:
+```
+function test()
+  Attendance Percentage = (Days Attended / Total Days) * 100
+```
 
 
