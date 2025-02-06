@@ -7,3 +7,12 @@ This project is a Face Recognition Attendance System built using OpenCV, Face Re
 - Check-In & Check-Out: Allows users to check-in when recognized, and check-out when prompted.
 - Attendance Tracking: The system tracks check-in time, check-out time, time spent, and calculates attendance percentages.
 - GUI Interface: Built with Tkinter, providing an easy-to-use graphical interface for interacting with the system.
+
+## Requirements
+Before running the project, make sure you have the following libraries installed:
+- opencv-python (for video capture and processing)
+- face_recognition (for face encoding and recognition)
+- mtcnn (for MTCNN face detection)
+- pandas (for storing attendance data)
+- tkinter (for the GUI interface)
+- Pillow (for image handling with Tkinter)
