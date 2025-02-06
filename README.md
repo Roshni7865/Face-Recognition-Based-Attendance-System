@@ -16,3 +16,7 @@ Before running the project, make sure you have the following libraries installed
 - **pandas** (for storing attendance data)
 - **tkinter** (for the GUI interface)
 - **Pillow** (for image handling with Tkinter)
+
+## You can install them using pip:
+''' pip install opencv-python face_recognition mtcnn pandas pillow '''
+
