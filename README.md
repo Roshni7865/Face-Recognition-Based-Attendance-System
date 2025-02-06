@@ -18,5 +18,5 @@ Before running the project, make sure you have the following libraries installed
 - **Pillow** (for image handling with Tkinter)
 
 ## You can install them using pip:
-''' pip install opencv-python face_recognition mtcnn pandas pillow '''
+``` pip install opencv-python face_recognition mtcnn pandas pillow ```
 
