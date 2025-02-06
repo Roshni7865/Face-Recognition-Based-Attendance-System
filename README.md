@@ -21,7 +21,28 @@ Before running the project, make sure you have the following libraries installed
 ``` function test()
 pip install opencv-python face_recognition mtcnn pandas pillow
 ```
+## How to Use
+
+### 1. Register a New Face
+Click on the "Register Face" button in the Tkinter interface.
+Enter the name of the person to register.
+A camera window will open where the person must look at the camera to register their face. The system will capture multiple frames to create a face encoding and store it.
+
+### 2. Start Face Recognition
+Click on the "Start Face Recognition" button to begin the face recognition process.
+The system will continuously capture frames from the webcam, detect faces, and compare them with the registered faces.
+If the person is recognized, their attendance will be marked as "Check-In."
+After recognizing the face, the system will prompt you with a check-out confirmation message.
+
+### 3. Check-Out
+When the check-out prompt appears, you can choose to check out the individual.
+The system will log the time spent between check-in and check-out and calculate the attendance percentage accordingly.
+
+### 4. Attendance Data
+The attendance data, including check-in time, check-out time, time spent, and attendance percentage, will be stored in a CSV file called attendance.csv.
+
 ## File Structure
+
 ```
 ├── face_recognition_attendance.py  # Main Python script
 ├── attendance.csv                 # Stores attendance data
