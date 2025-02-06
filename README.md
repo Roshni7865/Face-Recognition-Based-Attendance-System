@@ -19,7 +19,7 @@ Before running the project, make sure you have the following libraries installed
 
 ## You can install them using pip:
 ``` function test(){
-console.log("pip install opencv-python face_recognition mtcnn pandas pillow");
+pip install opencv-python face_recognition mtcnn pandas pillow
 }
 ```
 
