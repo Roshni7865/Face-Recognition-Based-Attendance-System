@@ -22,11 +22,12 @@ Before running the project, make sure you have the following libraries installed
 pip install opencv-python face_recognition mtcnn pandas pillow
 ```
 ## File Structure
-
+```
 ├── face_recognition_attendance.py  # Main Python script
 ├── attendance.csv                 # Stores attendance data
 ├── README.md                      # Project description and instructions
 └── requirements.txt               # List of required libraries
+```
 
 
 
