@@ -57,5 +57,6 @@ The formula for attendance percentage is:
 function test()
   Attendance Percentage = (Days Attended / Total Days) * 100
 ```
-
+## License
+This project is open-source and available under the MIT License.
 
